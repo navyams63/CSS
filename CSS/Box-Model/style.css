@@ -1,0 +1,76 @@
+.jumbotron{
+    background-color: grey;
+    padding: 20px;
+    margin: 20px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+/* COMMON CODE */
+.cssPadding>h1, .cssBorder>h1, .cssMargin>h1{
+    background-color: teal;
+    color: #fff;
+    border-radius: 5px;
+}
+/* CSS PADDING CODE */
+.cssPadding>h1:nth-child(1){
+    padding: 50px;
+     /* applied to all sides */
+}
+.cssPadding>h1:nth-child(2){
+    padding: 25px 75px;
+    /* applied to top-bottom left-right  */
+}
+.cssPadding>h1:nth-child(3){
+    padding: 25px 50px 75px;
+    /* applied for top left-right bottom */
+}
+.cssPadding>h1:nth-child(4){
+    padding: 25px 50px 75px 100px;
+}
+/* p2.html  CSS Border Code */
+.cssBorder{
+    padding: 20px;
+}
+.cssBorder>h1:nth-child(1){
+    border: 5px solid rgb(218, 139, 139);
+    /* applies to all sides */
+}
+.cssBorder>h1:nth-child(2){
+    border: 5px;
+    border-color: rgb(201, 135, 135) rgb(160, 160, 224);
+    /* applies to top-bottom left-right */
+    border-style: solid;
+}
+
+.cssBorder>h1:nth-child(3){
+    border: 5px;
+    border-color: rgb(190, 153, 153) rgb(143, 143, 202) rgb(150, 199, 199);
+    border-style: solid;
+}
+.cssBorder>h1:nth-child(4){
+    border: 5px;
+    border-color: rgb(209, 141, 141) rgb(1rgb(140, 219, 140)51, 219) green black;
+    border-style: solid;
+}
+/* P3.HTML CSS MARGIN CODE */
+.cssMargin>h1:nth-child(1){
+    margin: 50px;
+}
+.cssMargin>h1:nth-child(2){
+    margin: 25px 75px;
+}
+.cssMargin>h1:nth-child(3){
+    margin: 25px 50px 75px;
+}
+.cssMargin>h1:nth-child(4){
+    margin: 25px 50px 75px 100px;
+}
+/* p4.html CSS BOX MODEL */
+.cssBoxModel{
+    background-color: bisque;
+    padding: 20px;
+    border: 5px solid #000;
+    margin: 30px;
+    color: #808080;
+}
